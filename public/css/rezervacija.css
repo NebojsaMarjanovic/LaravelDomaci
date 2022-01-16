@@ -1,0 +1,67 @@
+body{
+	background: url(../img/proba.jpg) no-repeat top center;
+	color: #43758a;
+}
+#destinacije .parent{
+	font-style: bold;
+}
+
+
+footer{
+	background: #333;
+	color: #fff;
+	padding: 30px 0 20px 0;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height: 7%;
+   width:100%;
+
+
+}
+
+footer li{
+	float: left;
+	padding: 0 10px 0 10px;
+	list-style: none;
+}
+
+footer a{
+	color: #fff;
+}
+
+
+@media(min-width: 1200px){
+
+	#imeForma{
+		width: 100%;
+	}
+
+	#emailForma{
+		width: 100%;
+	}
+
+	#napomena{
+		width: 100%;
+	}
+
+	footer {
+		margin-top: 10px;
+		padding-bottom: 20px;
+		height: 20px;
+		font-size: 10px;
+	}
+	footer #podaci{
+		margin-top: -10px;
+	}
+	footer #copy{
+		margin-top: -10px;
+	}
+
+
+		footer ul{
+		padding : 0px;
+		margin-bottom: 10px;
+	}
+}
+

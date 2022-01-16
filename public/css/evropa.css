@@ -1,0 +1,463 @@
+body {
+    background: url(../img/proba.jpg) no-repeat top center;
+  }
+
+  .jumbotron {
+    background: url(../img/proba.jpg) no-repeat top center;
+  }
+
+  .jumbotron h1 {
+    color: white;
+    font-style: italic;
+    text-shadow: #43758a 3px 3px;
+  }
+
+  #middle .container {
+    width: 1000px;
+    margin: 40px auto;
+    overflow: auto;
+    position: relative;
+  }
+
+  #middle .slider-inner {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #666 solid 1px;
+    margin-left: 25px;
+  }
+
+  #middle .slider-inner img {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  #middle .slider-inner img.activeLisabon {
+    display: inline-block;
+  }
+
+  #middle .prevLisabon,
+  .nextLisabon {
+    float: left;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+
+  #middle .prevLisabon {
+    position: relative;
+    margin-right: -70px;
+    margin-left: 7px;
+    z-index: 100;
+  }
+
+  #middle .nextLisabon {
+    position: relative;
+    margin-left: -40px;
+    z-index: 100;
+  }
+
+  #middle .slider-inner img.activeMadrid {
+    display: inline-block;
+  }
+
+  #middle .prevMadrid,
+  .nextMadrid {
+    float: left;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+
+  #middle .prevMadrid {
+    position: relative;
+    margin-right: -70px;
+    margin-left: 7px;
+    z-index: 100;
+  }
+
+  #middle .nextMadrid {
+    position: relative;
+    margin-left: -40px;
+    z-index: 100;
+  }
+
+  #middle .slider-inner img.activeRim {
+    display: inline-block;
+  }
+
+  #middle .prevRim,
+  .nextRim {
+    float: left;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+
+  #middle .prevRim {
+    position: relative;
+    margin-right: -70px;
+    margin-left: 7px;
+    z-index: 100;
+  }
+
+  #middle .nextRim {
+    position: relative;
+    margin-left: -40px;
+    z-index: 100;
+  }
+
+  #middle .slider-inner img.activeMoskva {
+    display: inline-block;
+  }
+
+  #middle .prevMoskva,
+  .nextMoskva {
+    float: left;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+
+  #middle .prevMoskva {
+    position: relative;
+    margin-right: -70px;
+    margin-left: 7px;
+    z-index: 100;
+  }
+
+  #middle .nextMoskva {
+    position: relative;
+    margin-left: -40px;
+    z-index: 100;
+  }
+
+  #middle .slider-inner img.activePariz {
+    display: inline-block;
+  }
+
+  #middle .prevPariz,
+  .nextPariz {
+    float: left;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+
+  #middle .prevPariz {
+    position: relative;
+    margin-right: -70px;
+    margin-left: 7px;
+    z-index: 100;
+  }
+
+  #middle .nextPariz {
+    position: relative;
+    margin-left: -40px;
+    z-index: 100;
+  }
+
+  #middle .slider-inner img.activeAmsterdam {
+    display: inline-block;
+  }
+
+  #middle .prevAmsterdam,
+  .nextAmsterdam {
+    float: left;
+    margin-top: 70px;
+    cursor: pointer;
+  }
+
+  #middle .prevAmsterdam {
+    position: relative;
+    margin-right: -70px;
+    margin-left: 7px;
+    z-index: 100;
+  }
+
+  #middle .nextAmsterdam {
+    position: relative;
+    margin-left: -40px;
+    z-index: 100;
+  }
+
+  #middle .panel-heading {
+    background-color: #43758a;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  #middle .panel-body {
+    background-color: #cccccc;
+    width: 100%;
+    margin: 0;
+  }
+
+  #middle .panel-footer {
+    background-color: #bfbfbf;
+    color: black;
+    height: 430px;
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 7%;
+    width: 100%;
+  }
+
+  footer li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+  }
+
+  footer a {
+    color: #fff;
+  }
+
+  @media (min-width: 1200px) {
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+    footer #podaci {
+      margin-top: -10px;
+    }
+    footer #copy {
+      margin-top: -10px;
+    }
+
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+    footer #podaci {
+      margin-top: -10px;
+    }
+    footer #copy {
+      margin-top: -10px;
+    }
+
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 770px) and (max-width: 991px) {
+    #evropa {
+      margin-left: 500px;
+      margin-top: -150px;
+    }
+
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+
+    footer #podaci {
+      padding: 0;
+      margin-left: 92px;
+      margin-right: 170px;
+      margin-top: -30px;
+    }
+    footer #copy {
+      margin-top: -1px;
+    }
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 545px) and (max-width: 769px) {
+    #evropa {
+      margin-left: 500px;
+      margin-top: -100px;
+    }
+
+    #middle .panel {
+      width: 30%;
+      float: left;
+      margin-right: 10px;
+    }
+
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+
+    footer #podaci {
+      padding: 0;
+      margin-left: 92px;
+      margin-right: 170px;
+      margin-top: -30px;
+    }
+    footer #copy {
+      margin-top: -1px;
+    }
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 525px) and (max-width: 544px) {
+    #evropa {
+      margin-left: 500px;
+      margin-top: -100px;
+    }
+
+    #middle .panel {
+      width: 30%;
+      float: left;
+      margin-right: 10px;
+    }
+
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+
+    footer #podaci {
+      padding: 0;
+      margin-left: 92px;
+      margin-right: 170px;
+      margin-top: -30px;
+    }
+    footer #copy {
+      display: none;
+    }
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 470px) and (max-width: 524px) {
+    #evropa {
+      margin-left: 500px;
+      margin-top: -100px;
+    }
+
+    #middle .panel {
+      width: 30%;
+      float: left;
+      margin-right: 10px;
+    }
+
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+
+    footer #podaci {
+      padding: 0;
+      margin-left: 92px;
+      margin-right: 150px;
+      margin-top: -30px;
+    }
+    footer #copy {
+      display: none;
+    }
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 400px) and (max-width: 470px) {
+    #evropa {
+      margin-left: 500px;
+      margin-top: -100px;
+    }
+
+    #middle .panel {
+      width: 30%;
+      float: left;
+      margin-right: 10px;
+    }
+
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+
+    footer #podaci {
+      padding: 0;
+      margin-left: 92px;
+      margin-right: 70px;
+      margin-top: -30px;
+    }
+    footer #copy {
+      display: none;
+    }
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    #evropa {
+      margin-left: 500px;
+      margin-top: -100px;
+    }
+
+    #middle .panel {
+      width: 30%;
+      float: left;
+      margin-right: 10px;
+    }
+
+    footer {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      height: 20px;
+      font-size: 10px;
+    }
+
+    footer #podaci {
+      padding: 0;
+      margin-left: 75px;
+      margin-right: 50px;
+      margin-top: -30px;
+    }
+    footer #copy {
+      display: none;
+    }
+    footer ul {
+      padding: 0px;
+      margin-bottom: 10px;
+    }
+  }
